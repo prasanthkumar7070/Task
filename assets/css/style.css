@@ -20,8 +20,9 @@ body {
     color: rgb(173, 173, 173) !important;
 }
 
+.nav-link:focus,
 .nav-link:hover {
-    color: white;
+    color: rgb(233 58 125);
 }
 
 .purchase {
