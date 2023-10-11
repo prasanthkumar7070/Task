@@ -54,8 +54,8 @@ body {
 }
 
 .terms input {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     float: left;
     margin-right: 8px;
 }
@@ -71,7 +71,7 @@ body {
     font-family: 'DM Sans';
     font-weight: 600;
     font-size: 41px;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .fields input:not([type="checkbox"]) {
@@ -90,7 +90,7 @@ body {
 
 .terms {
     margin-top: 20px;
-    color: #737274;
+    color: #15143986;
     margin-bottom: 15px;
     font-size: 18px;
 
@@ -105,6 +105,7 @@ body {
 .row p {
     font-size: 20px;
     margin: 27px auto;
+    padding: 0px 50px 0 0;
 }
 
 .fields button {
@@ -142,5 +143,5 @@ body {
 
 .account {
     font-size: 18px !important;
-    color: #737274;
+    color: #15143986;
 }
