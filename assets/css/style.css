@@ -13,7 +13,7 @@ body {
 .nav-link {
     color: #fff;
     font-size: 16px;
-    margin: 0 10px;
+    margin: 0 0px 0px 15px;
 }
 
 .active {
@@ -25,38 +25,39 @@ body {
 }
 
 .purchase {
-    background-color: #f14c68;
+    background-color: #E93A7D;
     width: 120px;
     text-align: center;
     border-radius: 25px;
-    padding: 2px;
-    margin-top: 6px;
+    height: 40px;
 }
 
 .text-area {
-    /* width: 300px; */
+    padding: 0px 50px 0px 0px;
 }
 
-
 .text-area button {
-    background-color: #f14c68;
+    background-color: #e93a7d;
     border-radius: 25px;
     border: none;
-    padding: 5px 18px;
     color: white;
+    font-size: 18px;
+    width: 157px;
+    height: 50px;
+    transition: 0.5s;
 }
 
 .form {
     background-color: white;
     padding: 25px 4rem;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
 }
 
 .form h4 {
     text-align: center;
     font-family: 'DM Sans';
     font-weight: 600;
-    font-size: 28px;
+    font-size: 41px;
     padding: 5px 20px;
 }
 
@@ -64,24 +65,32 @@ body {
     width: 100%;
     border-radius: 25px;
     padding: 5px 15px;
-    border: 1px solid rgb(173, 171, 171);
+    border: 1px solid #EBEAED;
     margin-top: 20px;
     outline: none;
+    height: 50px;
+}
+
+.fields input::placeholder {
+    color: #15143986;
 }
 
 .terms {
     margin-top: 20px;
     color: grey;
     margin-bottom: 15px;
+
 }
 
 .row h1 {
-    font-size: 3rem;
-    text-transform: capitalize;
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
 }
 
 .row p {
     font-size: 20px;
+    margin: 27px auto;
 }
 
 .fields button {
@@ -92,6 +101,8 @@ body {
     border-radius: 25px;
     background-color: #2b4de7;
     color: white;
+    height: 50px;
+    transition: 0.5s;
 }
 
 .fields a {
@@ -101,12 +112,13 @@ body {
 
 .fields .line {
     width: 200px;
-    background-color: rgb(170, 167, 167);
+    background-color: #EBEAED;
     height: 2px;
     margin-top: 8px;
     opacity: 0.6;
 }
-.fields h6{
+
+.fields h6 {
     padding: 0 5px;
 }
 
