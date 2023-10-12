@@ -155,4 +155,72 @@ body {
 .account {
     font-size: 18px !important;
     color: #15143986;
+    text-align: center !important;
+}
+
+/* media-queries */
+
+@media only screen and (max-width:991px) {
+    .form h4 {
+        font-size: 30px;
+        padding: 5px 20px;
+    }
+
+    .fields input:not([type="checkbox"]) {
+        height: 43px;
+    }
+
+    .form {
+        padding: 25px 2rem;
+    }
+
+    .fields button {
+        height: 43px;
+    }
+
+    .my-4 {
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .terms {
+        font-size: 16px;
+        margin-top: 20px !important;
+    }
+
+    .terms input {
+        width: 19px;
+        height: 19px;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .account {
+        font-size: 16px !important;
+        color: #15143986;
+        text-align: center !important;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        color: transparent;
+    }
+
+    .row h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2.5px;
+    }
+
+    .row p {
+        font-size: 17px;
+        margin: 27px auto;
+        padding: 0px 0px 0 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .text-area {
+        margin-bottom: 39px;
+    }
 }
